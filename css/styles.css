@@ -80,10 +80,9 @@ p {
 
 /* Images */
 .title-image {
-    width: 150%;
-    position: all;
+    width: 100%;
+    position: absolute;
     margin: 5% 5%;
-    background-position: center;
 
 }
 
