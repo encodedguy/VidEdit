@@ -1,0 +1,187 @@
+body {
+    font-family: "montserrat";
+}
+
+#titles {
+    background-image: url('https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-color: #4b1fde;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #1e1e42;
+    font-size: 1rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.col-lg-6{
+
+  padding-top: 5%;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0 0 0 0;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Button */
+.download-Button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Images */
+.title-image {
+    width: 70%;
+    position: absolute;
+    margin: 20% 20%;
+
+}
+
+/* feature section */
+#features {
+    padding: 7% 13%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #19bcf7;
+}
+
+.icon:hover {
+    color: #1975f7;
+}
+
+/* Testimonial Section */
+#testimonials {
+    text-align: center;
+    background-color: #fff;
+    color: white;
+    font-family: "montserrat", sans-serif;
+}
+
+.testimonial-text{
+
+}
+
+.carousel-item {
+  background-image: url('https://wallpaperaccess.com/full/1947484.jpg');
+ background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7% 7%;
+}
+
+.T-image {
+    width: 25%;
+    border-radius: 2%;
+    margin-top: 2%;
+
+}
+
+#press {
+    background-color: #4b1fde;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#projects {
+    padding: 100px;
+    text-align: center;
+}
+
+.projects-col {
+    padding: 5% 3%;
+}
+
+@media (max-width: 1140px) {
+
+    #titles {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta(call of action) */
+
+#cta {
+    background-image: url('https://wallpaperbat.com/img/360433-professional-web-design-services-server-experts.jpg');
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 2rem;
+
+}
+
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.icon-footer {
+    padding: 2%;
+    color: black;
+
+}
+
+.icon-footer:hover {
+    color: #52baee;
+}
